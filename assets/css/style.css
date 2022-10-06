@@ -1,0 +1,119 @@
+/*=============== Structure ===============
+  1- Root Var
+  2- General Style
+  3- HEADER & NAV
+  4- HOME
+  5- Slider
+  6- Filter
+  7- Image Animation
+  8- Crud
+  9- Contact Form
+  10- Products Page
+  11- Footer
+  12-----------Media---------------
+  -------------large--------------
+  ------------medium-------------
+  -----------small--------------
+*/
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600&display=swap');
+/*=============== 1- Root Var ===============*/
+:root {
+  --header-height: 3.5rem;
+  --main-color: #FF5A0E;
+  --sec-color: #FFB096;
+  --white-color: #fffef2;
+  --balck-color: #3D3B3A;
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-hue: 250;
+  --second-hue: 219;
+  --title-color: hsl(var(--second-hue), 15%, 95%);
+  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --body-color: hsl(var(--second-hue), 48%, 8%);
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: 'Readex Pro', sans-serif;
+  --biggest-font-size: 1.75rem;
+  --h2-font-size: 1.25rem;
+}
+
+/* Responsive typography */
+@media screen and (min-width: 968px) {
+  :root {
+    --h2-font-size: 1.5rem;
+  }
+}
+
+/*=============== 2- General Style ===============*/
+* {
+  box-sizing: border-box; padding: 0; margin: 0;
+}
+
+html { scroll-behavior: smooth; overflow-x: hidden;}
+
+body,button,input,textarea { font-family: var(--body-font);}
+
+body {
+  background-color: var(--body-color); color: var(--text-color); transition: .4s; /* for light mode animation */
+  text-align: right;
+}
+
+h1, h2, h3 { color: var(--title-color); }
+
+ul {
+  list-style: none;
+}
+
+a { text-decoration: none; color: var(--text-color); }
+
+a.btn { padding: 15px; background: var(--main-color); color: var(--white-color); border-radius: 5px; margin: 10px; }
+
+button { cursor: pointer; border: none; outline: none; }
+
+img { max-width: 100%; height: auto;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* For large devices */
+@media only screen and (max-width: 1320px) {
+
+}
+
+/* For medium devices */
+@media only screen and (max-width: 1100px) {
+
+}
+
+
+/* For small devices */
+@media only screen and (max-width: 900px) {
+
+}
+
+
